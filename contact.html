@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/global.css">
+</head>
+<body>
+    
+    <div id="header"></div>
+
+    <div>
+        <form id="contact-form">
+            <table>
+                <tr>
+                    <th><label for="name">Nome:</label></th>
+                    <td><input type="text" name="name" id="name" required></td>
+                </tr>
+                <tr>
+                    <th><label for="email">E-mail:</label></th>
+                    <td><input type="email" name="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <th><label for="msg">Mensagem:</label></th>
+                    <td><textarea name="msg" id="msg" rows="5" cols="40" required></textarea></td>
+                </tr>
+                <tr>
+                    <th></td>
+                    <td><button type="submit">Eviar</button></td>
+                </tr>
+            </table>
+        </form>
+
+    </div>
+
+    
+    <script src="js/load-components.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
