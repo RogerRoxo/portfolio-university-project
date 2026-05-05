@@ -1,4 +1,8 @@
 
+.type {
+    font-size: 28px;
+    text-align: center;
+}
 
 .container {
     display: grid;
@@ -24,6 +28,15 @@
 
 .course {
     font-size: 18px;
+}
+
+.date {
+    font-size: 16px;
+    color: #474747;
+}
+
+.descri {
+    margin: 8px 0;
 }
 
 

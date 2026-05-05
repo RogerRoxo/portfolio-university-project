@@ -13,29 +13,22 @@
     
     <div id="header"></div>
 
-    <div>
-        <form id="contact-form">
-            <table>
-                <tr>
-                    <th><label for="name">Nome:</label></th>
-                    <td><input type="text" name="name" id="name" required></td>
-                </tr>
-                <tr>
-                    <th><label for="email">E-mail:</label></th>
-                    <td><input type="email" name="email" id="email" required></td>
-                </tr>
-                <tr>
-                    <th><label for="msg">Mensagem:</label></th>
-                    <td><textarea name="msg" id="msg" rows="5" cols="40" required></textarea></td>
-                </tr>
-                <tr>
-                    <th></td>
-                    <td><button type="submit">Eviar</button></td>
-                </tr>
-            </table>
-        </form>
+    <section>
+        <div class="contact-area">
 
-    </div>
+            <p class="mensage-contact">Entre em contato comigo</p>
+            <br>
+
+            <form id="contact-form" class="flex">
+                <input type="text" class="form-input" name="name" id="name" placeholder="Nome" required>
+                <input type="email" class="form-input" name="email" id="email" placeholder="E-mail" required>
+                <textarea name="msg" class="form-input" id="msg" rows="5" cols="40" placeholder="Mensagem" required></textarea>
+                <button type="submit" class="form-input">Eviar</button>
+            </form>
+            <br>
+            <br>
+        </div>
+    </section>
 
     
     <script src="js/load-components.js"></script>

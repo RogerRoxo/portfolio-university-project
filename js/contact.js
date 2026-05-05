@@ -1,14 +1,18 @@
 
 
 function checkFields() {
-    event.preventDefault(); // Prevents reload page after click button
 
     let nameField = document.getElementById("name").value;
     let emailField = document.getElementById("email").value;
     let msgField = document.getElementById("msg").value;
 
     // Email validation
-    checkEmail(emailField);
+    if (checkEmail(emailField)){
+        alert("Sua mensagem foi enviada com sucesso!")
+    }
+    else{
+        alert("Informe um endereço de email correto!")
+    }
 
 
     
