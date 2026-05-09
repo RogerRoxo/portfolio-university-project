@@ -2,7 +2,7 @@
 
 
 function copyText(event) {
-    event.preventDefault(); // For link not run
+    event.preventDefault(); // For page not reload
 
     const link = event.target;
     const text = link.innerText;

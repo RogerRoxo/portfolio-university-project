@@ -6,6 +6,7 @@ h1 {
     font-size: 80px;
 }
 
+
 .about-me {
     font-size: 25px;
     padding-inline: 10%;
@@ -22,7 +23,9 @@ h1 {
     font-size: 28px;
 }
 
+
 @media screen and (max-width: 690px) {
+
     h1 {
         margin: 50px auto ;
         font-size: 50px;
@@ -33,11 +36,12 @@ h1 {
     }
 
     .container {
-    flex-direction: column;
-    align-items: center;
-    font-size: 24px;
-    gap: 40px;
-}
+        flex-direction: column;
+        align-items: center;
+        font-size: 24px;
+        gap: 40px;
+    }
+    
 }
 
 

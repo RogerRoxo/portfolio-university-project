@@ -6,7 +6,6 @@ function checkFields() {
     let emailField = document.getElementById("email").value;
     let msgField = document.getElementById("msg").value;
 
-    
     if (checkEmail(emailField)){
         alert("Sua mensagem foi enviada com sucesso!")
     }
