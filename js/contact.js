@@ -1,5 +1,6 @@
 
 
+// Verify if fields are corrects
 function checkFields() {
 
     let nameField = document.getElementById("name").value;
